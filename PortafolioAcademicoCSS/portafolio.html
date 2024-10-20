@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Académico - Esteban Henríquez</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <style>
+        h1{
+            color: aliceblue;
+            text-align: center;
+            background-color: blue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2, h3{
+            text-align: center;
+            color: white;
+        }
+
+        p{
+            border: 1px solid red;
+            margin: 20px;
+            padding: 15px;
+            color: white;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        a:hover{
+            background-color: yellow;
+            color: black;
+        }
+
+        body{
+            background-color: aqua;
+            font-family: Arial, sans-serif;
+            background-image: url('/1366_2000.jpeg');
+            margin: 0;
+            padding: 0;
+        }
+
+        footer{
+            background-color: #b24514;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+        .firebrick{
+            background-color: white;
+            border: 5px solid red;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        /* Adaptación de clases a secciones */
+        section{
+            background-color: hotpink;
+            border: 5px dashed black;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h3{
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .proyectos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .proyectos section{
+            width: 60%;
+        }
+
+        .proyectos a{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portafolio Académico - Esteban Henríquez</h1>
+    </header>
+
+    <main>
+        <h2>Proyectos Universitarios</h2>
+
+        <div class="proyectos">
+            <section>
+                <h3>Sistema de Gestión de Usuarios</h3>
+                <p>Proyecto para gestionar usuarios utilizando Spring Boot y una base de datos en MariaDB. Se enfoca en la autenticación, autorización y el manejo de información de usuarios.</p>
+                <p><strong>Tecnologías utilizadas:</strong> Spring Boot, MariaDB, JPA, Thymeleaf</p>
+                <a href="https://github.com/DesarrolloBackEnd-ISTLC-A2024/01Usuarios_ESTEBANHENRIQUEZ" target="_blank">Ver Proyecto en GitHub</a>
+            </section>
+
+            <section>
+                <h3>API Hospitalaria</h3>
+                <p>API RESTful para la gestión de un hospital ficticio. Incluye funcionalidades para manejar pacientes, doctores, citas médicas y el historial médico de los pacientes, utilizando .NET Core y SQL Server.</p>
+                <p><strong>Tecnologías utilizadas:</strong> .NET Core, SQL Server, Entity Framework</p>
+                <a href="https://github.com/Steveb-cloud/HospitalApi" target="_blank">Ver Proyecto en GitHub</a>
+            </section>
+
+            <section>
+                <h3>Proyecto de Encriptación</h3>
+                <p>Desarrollo de un sistema para la encriptación y desencriptación de datos sensibles. El objetivo es garantizar la seguridad de la información a través de algoritmos de cifrado.</p>
+                <p><strong>Tecnologías utilizadas:</strong> Java, AES, RSA</p>
+                <a href="https://github.com/Steveb-cloud/encriptacion" target="_blank">Ver Proyecto en GitHub</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Esteban Henríquez - Portafolio Académico</p>
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Citas Académicas</title>
+    <link rel="stylesheet" href="css/estilos_citas.css">
+    <style>
+    body {
+        font-family: 'Georgia', serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    
+    header p {
+        font-style: italic;
+    }
+    
+    main {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    section {
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        color: #4CAF50;
+        border-bottom: 2px solid #4CAF50;
+        padding-bottom: 5px;
+        font-size: 1.8em;
+    }
+    
+    blockquote {
+        font-style: italic;
+        color: #555;
+        background-color: #f9f9f9;
+        border-left: 5px solid #4CAF50;
+        padding: 10px 20px;
+        margin: 10px 0;
+        quotes: "“" "”" "‘" "’";
+    }
+    
+    blockquote:before {
+        content: open-quote;
+    }
+    
+    blockquote:after {
+        content: close-quote;
+    }
+    
+    cite {
+        display: block;
+        text-align: right;
+        font-weight: bold;
+        margin-top: 5px;
+        color: #333;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    ul li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+    
+    ul li:before {
+        content: "•";
+        color: #4CAF50;
+        font-size: 1.2em;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Citas Académicas Importantes</h1>
+        <p>Organizadas por tema y autor</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Educación</h2>
+            <blockquote>
+                "La educación es el arma más poderosa que puedes usar para cambiar el mundo."
+            </blockquote>
+            <cite>- Nelson Mandela</cite>
+            <blockquote>
+                "El propósito de la educación es reemplazar una mente vacía con una abierta."
+            </blockquote>
+            <cite>- Malcolm Forbes</cite>
+        </section>
+        <section>
+            <h2>Ciencia</h2>
+            <blockquote>
+                "La ciencia no es sino una perversión de sí misma, a menos que tenga como objetivo último mejorar la humanidad."
+            </blockquote>
+            <cite>- Nikola Tesla</cite>
+            <blockquote>
+                "La ciencia es la gran antídoto contra el veneno del entusiasmo y la superstición."
+            </blockquote>
+            <cite>- Adam Smith</cite>
+        </section>
+        <section>
+            <h2>Filosofía</h2>
+            <blockquote>
+                "El conocimiento es poder."
+            </blockquote>
+            <cite>- Francis Bacon</cite>
+            <blockquote>
+                "La vida no examinada no merece ser vivida."
+            </blockquote>
+            <cite>- Sócrates</cite>
+        </section>
+        <section>
+            <h2>Referencias Bibliográficas</h2>
+            <ul>
+                <li>Mandela, N. (2003). *El largo camino hacia la libertad*. Sudáfrica: Macdonald Purnell.</li>
+                <li>Forbes, M. (1989). *El éxito de la educación*. Nueva York: Educational Press.</li>
+                <li>Tesla, N. (1919). *Mis inventos*. Nueva York: The Electrical Experimenter.</li>
+                <li>Smith, A. (1759). *La teoría de los sentimientos morales*. Londres: A. Millar.</li>
+                <li>Bacon, F. (1620). *Novum Organum*. Inglaterra: Clarendon Press.</li>
+                <li>Platón. (399 a.C.). *Diálogos de Platón*. Grecia: Editorial Filosofía Clásica.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Página de Citas Académicas - Desarrollada por Esteban Henríquez</p>
+    </footer>
+
+</body>
+</html>
